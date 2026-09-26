@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Final Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portfolio - <span>Website</span></div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Project</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME / HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-profile">
+            <div class="profile-glow">
+                <img src="pica.png" alt="Profile Picture" class="profile-img" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80'">
+            </div>
+        </div>
+        <div class="hero-content">
+            <p class="greeting">Hello, I'm <span>Lucky Lexander Ociro</span></p>
+            <h1>Student</h1>
+            <p class="bio">Currently pursuing a Bachelor of Science in Information Technology, focusing on web design, systems analysis, and modern software development applications.</p>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+        <div class="section-heading">
+            <span>ABOUT ME</span>
+            <h2>Get to Know <span>Who I Am</span></h2>
+        </div>
+        <div class="about-grid">
+            <div class="glass-card">
+                <div class="card-icon">🎓</div>
+                <h3>Background & Education</h3>
+                <p><strong>Introduction:</strong> I am an aspiring information technology professional dedicated to crafting clean code and learning new frameworks.</p>
+                <p><strong>Educational Background:</strong> Currently pursuing a Bachelor of Science in Information Technology, focusing on web design, systems analysis, and software development.</p>
+            </div>
+            <div class="glass-card">
+                <div class="card-icon">🎯</div>
+                <h3>Interests & Goals</h3>
+                <p><strong>Hobbies/Interests:</strong> UI/UX wireframing, open-source coding, graphic design, and exploring emerging tech trends.</p>
+                <p><strong>Career Goal:</strong> To work as a Full-Stack Software Engineer contributing to scalable cloud applications and innovative digital products.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section skills-section">
+        <div class="section-heading">
+            <span>EXPERTISE</span>
+            <h2>My Technical <span>Skills</span></h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-box">
+                <div class="skill-icon">01</div>
+                <h3>HTML</h3>
+                <p>Semantic structuring and modern markup standards.</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-icon">02</div>
+                <h3>CSS</h3>
+                <p>Responsive styling, Flexbox, Grid, and animations.</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-icon">03</div>
+                <h3>JavaScript</h3>
+                <p>Interactive DOM manipulation and logic scripting.</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-icon">04</div>
+                <h3>Graphic Design</h3>
+                <p>UI assets, layouts, branding, and Figma wireframes.</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-icon">05</div>
+                <h3>DataBase SQL</h3>
+                <p>Creating System, Designing System, Customizing Trigger Functions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section projects">
+        <div class="section-heading">
+            <span>PORTFOLIO</span>
+            <h2>Featured <span>Projects</span></h2>
+        </div>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-img-wrap">
+                    <img src="Nexus-Dashboard-Flow-3.jpg" alt="Nexus Dashboard" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=500&q=80'">
+                </div>
+                <div class="project-content">
+                    <div class="project-top">
+                        <span class="project-number">#01</span>
+                        <span class="project-type">WEB APP</span>
+                    </div>
+                    <h3>Nexus Dashboard</h3>
+                    <p>A futuristic analytics dashboard built with modern web technologies and real-time visualization.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-wrap">
+                    <img src="basee.png" alt="Database for Intervention in CSU" onerror="this.src='https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=500&q=80'">
+                </div>
+                <div class="project-content">
+                    <div class="project-top">
+                        <span class="project-number">#02</span>
+                        <span class="project-type">Database</span>
+                    </div>
+                    <h3>DataBase for Intervention in CSU</h3>
+                    <p>A database to track either the students are required to take the intervention exam or not.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-wrap">
+                    <img src="basee.png" alt="Attendance Tracking System" onerror="this.src='https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=500&q=80'">
+                </div>
+                <div class="project-content">
+                    <div class="project-top">
+                        <span class="project-number">#03</span>
+                        <span class="project-type">System</span>
+                    </div>
+                    <h3>Attendance Tracking System</h3>
+                    <p>A database to track student absences.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-logo">LUCKY - <span>OCIRO</span></div>
+        <p>Designed & Built for IT 101 Final Exam</p>
+        <small>&copy; 2026 Lucky Lexander Ociro. All rights reserved.</small>
+    </footer>
+
+</body>
+</html>
